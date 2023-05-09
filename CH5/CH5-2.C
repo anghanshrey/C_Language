@@ -2,21 +2,21 @@
 #include<conio.h>
 main()
 {
- int n;
+ int a,b,c;
  clrscr();
- printf("enter any number :");
- scanf("%d",&n);
- if(n >= 0)
-  {
-	printf("this number is positive ");
-  }
- else if (n == 0)
-  {
-	 printf("this number is neutral ");
-  }
- else
-  {
-	 printf("this number is negative ");
-  }
+ printf("enter a:");
+ scanf("%d",&a);
+ printf("enter b:");
+ scanf("%d",&b);
+ printf("enter c:");
+ scanf("%d",&c);
+ (a<b)
+	     ? (a<c)
+		    ? printf("a is minimun")
+		    : printf("c is minimun")
+	     :(b<c)
+		  ?printf("b is minimun")
+		  :printf("c is minimun");
  getch();
 }
+
